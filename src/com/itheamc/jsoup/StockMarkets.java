@@ -23,8 +23,11 @@ public class StockMarkets {
             Element companyName = companyNameElements.get(0);
 
             Element infoTable = body.getElementById("accordion");
+            Elements tableBodies = infoTable.select(".panel ");
+
+
             System.out.println(companyName.text());
-            System.out.println(infoTable);
+            System.out.println(tableBodies.get(0).getElementsByTag("td").get(0).text());
         } catch (IOException e) {
             e.printStackTrace();
         }
