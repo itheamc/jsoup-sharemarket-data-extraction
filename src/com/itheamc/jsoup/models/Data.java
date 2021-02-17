@@ -1,4 +1,4 @@
-package com.itheamc.jsoup.model;
+package com.itheamc.jsoup.models;
 
 public class Data {
     private int id;

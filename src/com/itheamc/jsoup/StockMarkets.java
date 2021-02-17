@@ -1,6 +1,6 @@
 package com.itheamc.jsoup;
 
-import com.itheamc.jsoup.model.Data;
+import com.itheamc.jsoup.models.Data;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
